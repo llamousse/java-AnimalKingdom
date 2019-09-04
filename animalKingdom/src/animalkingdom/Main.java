@@ -17,6 +17,8 @@ public class Main
 
     public static void main(String[] args)
     {
+        System.out.println();
+        
         // call mammals - instantiate
         Mammals panda = new Mammals("Panda", 1869);
         Mammals zebra = new Mammals("Zebra", 1778);
@@ -34,5 +36,9 @@ public class Main
         System.out.println("Name: " + armadillo.getName() + " Year Named: " + armadillo.getYear());
         System.out.println("Name: " + raccoon.getName() + " Year Named: " + raccoon.getYear());
         System.out.println("Name: " + bigfoot.getName() + " Year Named: " + bigfoot.getYear());
+
+        System.out.println();
+
+
     }
 }

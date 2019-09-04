@@ -18,12 +18,6 @@ public abstract class Animals
     public abstract String breath();
     public abstract String reproduce();
 
-    // all animals consume food the same way
-    // public void consume()
-    // {
-    //     System.out.println("eat");
-    // }
-
     // methods return a string saying how that animal implements the action
     public String getName()
     {

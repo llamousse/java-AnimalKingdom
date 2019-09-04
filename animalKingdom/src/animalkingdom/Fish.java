@@ -2,8 +2,6 @@ package animalkingdom;
 
 public class Fish extends Animals
 {
-    // private String name;
-    // private int year;
 
     public Fish(String name, int year)
     {

@@ -2,9 +2,6 @@ package animalkingdom;
 
 public class Birds extends Animals
 {
-    // private String name;
-    // private int year;
-
     public Birds(String name, int year)
     {
         super(name, year);
