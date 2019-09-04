@@ -130,5 +130,13 @@ public class Main
         myList.sort((v1 ,v2) -> v1.getName().compareToIgnoreCase(v2.getName()));
         printAnimals(myList, v -> v.getYear() == 1758);
         System.out.println();
+
+        // STRETCH
+        // list in ABCs the animals that are mammals
+        System.out.println("STRETCH - List the animals alphabetically that are mammals");
+        myList.sort((v1 ,v2) -> v1.getName().compareToIgnoreCase(v2.getName()));
+        printAnimals(myList, v -> v.reproduce().equals("live births") && v.move().equals("walk"));
+        System.out.println();
+        
     }
 }
