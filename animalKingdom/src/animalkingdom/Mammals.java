@@ -15,7 +15,7 @@ public class Mammals extends Animals
     }
 
     @Override
-    public String breath()
+    public String breathe()
     {
         return "lungs";
     }

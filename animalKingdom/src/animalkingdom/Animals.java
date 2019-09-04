@@ -15,7 +15,7 @@ public abstract class Animals
 
     // abstract methods - passed down to child
     public abstract String move();
-    public abstract String breath();
+    public abstract String breathe();
     public abstract String reproduce();
 
     // methods return a string saying how that animal implements the action
